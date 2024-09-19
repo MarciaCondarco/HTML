@@ -15,4 +15,9 @@ th,td{
 
 tbody{
     background-color: rgb(229, 247, 247);
+    text-align: center;
+}
+tfoot{
+    background-color: rgb(130, 173, 173);
+    text-align: center;
 }
