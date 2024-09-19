@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    border:2px solid rgb(red, green, blue);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+}
+thead{
+    background-color: aqua;
+}
+th,td{
+    border: 1px solid;
+    padding: 8px 10px;
+}
+
+tbody{
+    background-color: rgb(229, 247, 247);
+}
