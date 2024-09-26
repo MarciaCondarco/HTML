@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    border:2px solid rgb(red, green, blue);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+    margin: auto;
+
+}
+th,td{
+    border: 1px solid;
+    padding: 20px;
+    
+}
+tbody{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+}
+tbody h3{
+    color: rgb(219, 107, 14);
+}
+body h1{
+    text-align: center;
+}

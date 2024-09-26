@@ -8,6 +8,7 @@ table{
 }
 thead{
     background-color: rgba(94, 12, 12, 0.753);
+    margin: none;
 }
 th,td{
     border: 1px solid;
@@ -31,4 +32,14 @@ img{
 }
 .icone_eliminar{
     width: 20px;
+}
+h2{
+    font-size: 2px;
+    color:rgb(rgb(231, 56, 56), green, blue);
+}
+h3{
+    color:rgb(199, 103, 24);
+}
+body h1{
+    text-align: center;
 }
