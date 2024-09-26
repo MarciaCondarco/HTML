@@ -4,9 +4,10 @@ table{
     font-family: sans-serif;
     letter-spacing: 1px;
     width: 50%;
+    margin: auto;
 }
 thead{
-    background-color: aqua;
+    background-color: rgba(94, 12, 12, 0.753);
 }
 th,td{
     border: 1px solid;
@@ -14,10 +15,19 @@ th,td{
 }
 
 tbody{
-    background-color: rgb(229, 247, 247);
+    background-color: rgba(247, 112, 112, 0.486);
     text-align: center;
 }
 tfoot{
     background-color: rgb(130, 173, 173);
     text-align: center;
+}
+p{
+    width: 600px;
+}
+img{
+    width: 100px;
+}
+.icone_eliminar{
+    width: 20px;
 }
