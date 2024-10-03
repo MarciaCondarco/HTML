@@ -14,26 +14,39 @@
 /*o linear-gradient coloca uma camada de cor encima da imagem*/
 .menu-principal ul{
     list-style: none;
+    /*list-style: none; usado para desaparecer as bolinhas das linhas*/
 }
 
 .menu-principal ul li{
     display: inline-block;
+    /*display -> Faz que cada item da lista se comporte como um bloco de linha*/
 }
 .menu-principal ul li a{
     color: white;
     text-decoration: none;
+    /*remove o sublinhado padrão dos links, deixando-os mais limpos*/
     text-transform: uppercase;
+    /*
+    uppercase - converte tudo para maiusculo
+    lowercase - converte tudo para minusculo
+    none: remove qualquer transformação 
+    */
     padding: 5px 20px;
     border: 1px solid transparent;
+    /*define uma borda invisivel ao redor do link. Isso pode ser útil para evitar mudanças de layout ao passar o mouse, já que a borda aparece durante a intervenção */
     transition: 0.06s ease;
+    /*Define a transição suave para as propriedades que mudam (como cor ou fundo), que ocorrerá em 0.06 segundos. Isso cria um efeito visual agradável durante a interação.
+    */
 }
 .menu-principal ul li a:hover{
     background-color: white;
     color: black;
+
 }
 .menu-principal ul li .link-ativo{
     background: white;
     color: black;
+    /*.link-ativo -> */
 }
 .categoria{
     display: flex;
