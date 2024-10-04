@@ -16,10 +16,10 @@
                 <img src="./assets/fotos/logo.png" alt="a foto da logo da pousada Destino brotas" class="logo">
                 <nav class="menu-principal">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SERVIÇO</a></li>
-                        <li><a href="#">GALERIA</a></li>
-                        <li><a href="#">CONTATO</a></li>
+                        <li><a href="#pagina-home">HOME</a></li>
+                        <li><a href="#pagina-tabela">SERVIÇO</a></li>
+                        <li><a href="#pagina-passeio">GALERIA</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
                     </ul>
                 </nav>
                 <!-- nav serve para facilitar a navegação dentro do site, como menus e links -->
@@ -33,29 +33,63 @@
         </div>
         </section>
     </header>
-    <main>
 <!-- main representa o conteúdo principal de um documento -->
-        <section class="pagina-passeio">
-            <h2>Passeios</h2>
-            <a href="#">Ir para o inicio</a>
-            <div class="paginapasseio">
-                <div class="primeira-imagem">
-                    <img src="./assets/fotos/foto1.png" alt="">
-                    <figcaption>Ecoturismo</figcaption>
-                </div>
-                <div class="segunda-imagem">
-                    <img src="./assets/fotos/foto2.png" alt=""> 
-                    <figcaption>Rafting</figcaption>    
-                </div>
-                <div class="terceira-imagem">
-                    <img src="./assets/fotos/foto3.png" alt="">
-                    <figcaption>Pacote Aventura</caption>
-                </div>
+        <section id="pagina-passeio">
+            <div class="categoria">
+                <h2>Passeios</h2>
+                <a href="#pagina-home">Ir para o inicio</a>
             </div>
+            <main>
+                    <figure>
+                        <img src="./assets/fotos/foto1.png" alt="" class="fotos">
+                        <figcaption>Ecoturismo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/fotos/foto2.png" alt="" class="fotos">
+                        <figcaption>Rafting</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/fotos/foto3.png" alt="" class="fotos">
+                        <figcaption>Pacote Aventura</figcaption>
+                    </figure>
+            </main>
         </section>
-    </main>
-    <footer>
+        <div class="categoria-tabela">
+            <h2>Valores</h2>
+            <a href="#pagina-home">Ir para o inicio</a>
+        </div>
+        <section id="pagina-tabela">
+            <table class="tabela">
+                <tbody>
+                    <tr>
+                        <th scope="col">Passeios</th>
+                        <th scope="col">Valores</th>
+                    </tr>
+                    <tr>
+                        <td>Canoagem</td>
+                        <td>R$ 60,00</td>
+                    </tr>
+                    <tr>
+                        <td>Passeio Radical</td>
+                        <td>R$ 80,00</td>
+                    </tr>
+                    <tr>
+                        <td>Trilha</td>
+                        <td>R$90,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+                <tr>
+                    <th colspan="1">Consulte na recepção os valores atualizaados</th>
+                </tr>
+            </table>
+        </section>
+    <footer id="contato">
 <!-- footer define a seção de rodapé de uma página ou seção. Normalmente contem informações de contado, redes sociais, logos, menus de acesso rápido.  -->
+        <img src="./assets/fotos/icone.png" alt="">
+        <h2>contato: (19)992124943</h2>    
     </footer>
 </body>
 </html>

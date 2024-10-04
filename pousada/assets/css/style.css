@@ -87,55 +87,72 @@ h1{
     column: organiza os itens verticalmente, de cima para baixo.
     */
 }
-.paginapasseio{
-    background: rgb(252, 252, 252);
-    margin: 200px;
+#pagina-passeio{
+    background: rgb(230, 244, 248);
+}
+.fotos{
+    width: 314px;
+    height: 368px;
+}
+#pagina-passeio main{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: row;
+    margin: 90px;
+    background-color: rgb(230, 244, 248);
 }
-.pagina-passeio a{
+#pagina-passeio main img{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 20px;
+}
+#pagina-passeio main figure:hover{
+    filter: grayscale(100%);
+}
+#pagina-passeio main figcaption{
+    border: 1px solid #c95e10;
+    background: #c95e10;
+    color: white;
+    padding: 5px;
+    margin: 5px 20px;
+    text-align: center;  
+}
+#pagina-tabela{
+    background-color:antiquewhite;
     display: flex;
-    align-items:right;
+    align-items: center;
     justify-content: center;
 }
-
-.primeira-imagem{
-    width: 314px;
-    height: 368px;
-    border: 1px solid black;
-    padding: 3px;
+.categoria-tabela{
     display: flex;
-    margin: 30px;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:antiquewhite;
 }
-.segunda-imagem{
-    width: 314px;
-    height: 368px;
-    border: 1px solid black;
-    padding: 3px;
-    display: flex;
-    margin: 30px;
-    flex-direction: column;
+table{
+    border-collapse: collapse;
+    border:2px solid black;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 60px;
+    background-color: rgb(194, 199, 204);
 }
-.terceira-imagem{
-    width: 314px;
-    height: 368px;
-    border: 1px solid black;
-    padding: 3px;
-    display: flex;
-    margin: 30px;
-    flex-direction: column;
+th,td{
+    border: 1px solid;
+    padding: 20px 20px ;
+    text-align: center;
+    margin: 9px;
     
 }
-figcaption{
-    border: 1px solid #C95E10;
-    margin: 8px;
-    width: 314px;
-    height: 368px;
-    padding: 7px;
-    background-color: #C95E10;
+th{
+    border:none;
+}
+#contato{
+    background-color: rgb(121, 57, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    text-align: center;
+    font-size:xx-large;
 }
