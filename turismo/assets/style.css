@@ -113,3 +113,53 @@
     width: 302px;
     height: 382px;
 }
+p{
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5px;
+}
+#pagina-footer{
+    background-size: cover;
+    background-image: linear-gradient(rgba(17, 17, 15, 0.24), rgba(34, 30, 4, 0.24)),url(../assets/fotos/footer.png);
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.categoria-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+#pagina-footer, .categoria-footer{
+    display: flex;
+    align-items: center;
+}
+#pagina-footer h2{
+    color: #faf7f7;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: xx-large;
+    margin-left: 90px; 
+}
+#pagina-footer, h2{
+    flex-direction:column;
+}
+.logo-footer{
+    width: 80px;
+    height: 80px;
+    padding: 0px 40px;
+}
+.container-titulo{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.container-titulo h3{
+    font-size: 30px;
+    
+}
+.container-titulo p{
+    font-size: 24px;
+}
