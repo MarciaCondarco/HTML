@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#pagina-home{
+    background-image: linear-gradient(rgba(17, 17, 15, 0.301), rgba(34, 30, 4, 0.301)),url(../assets/fotos/Banner.png);
+    height: 650px;
+    background-size: cover;
+}
+#pagina-home ul{
+    list-style: none;
+}
+#pagina-home ul a{
+    text-decoration:none ;
+}
+.navegador ul{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+}
+.logo{
+    width: 168px;
+    height: 168px;
+}
+.fonte{
+    font-size: xx-large;
+    color: black;
+}
+.navegador{
+    padding-top: 145px;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegador ul li{
+    font-size: x-large;
+    margin-left:70px;
+    padding-left: 8px;
+}
+.navegador-btn{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 80px;
+    margin-right:20px;
+}
+.navegador-btn a{
+    border: 1px solid transparent;
+}
+#pagina-conteudo{
+    margin-top: 20px;
+}
+#pagina-conteudo h2{
+    text-align: center;
+}
+.titulo{
+    font-size: 40px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 #b6b4f4,
+    1px -1px 0 #b6b4f4,
+    -1px 1px 0 #b6b4f4,
+    1px 1px 0 #b6b4f4;   
+}
+/* efeito de sombra */
+#pagina-conteudo .container h2{
+    text-align: left;
+}
+.container{
+    margin-top: 20px;
+    background-color: #EFECEC;
+    padding-top: 50px;
+}
+.container h2{
+    margin-left: 40px;
+    font-size: 40px;
+}
+.pontos-turistico{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.pontos-turistico h3{
+    text-align: center;
+    font-size: xx-large;
+}
+#pagina-parceiros h2{
+    padding:40px;
+    font-size: 40px;
+}
+.container-parceiros{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #51cff546;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:10px ;
+}
+.parceiros{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.fotoparceiros{
+    width: 302px;
+    height: 382px;
+}
